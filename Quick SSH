@@ -1,1 +1,2 @@
 ssh -i "/Users/slyons/Desktop/AWSClassKey.pem" ec2-user@ec2-54-202-217-85.us-west-2.compute.amazonaws.com
+plink -ssh "C:\Users\zhodd_000\Documents\AWS\AWSClassKey.ppk" ec2-user@
