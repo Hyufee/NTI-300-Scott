@@ -63,7 +63,11 @@ def ins_django()
 
 ins_django()
 
+"""
+ 
+   )
 
+launch_test_instance()
 
   
   
