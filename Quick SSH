@@ -1,2 +1,4 @@
 ssh -i "/Users/slyons/Desktop/AWSClassKey.pem" ec2-user@ec2-54-202-217-85.us-west-2.compute.amazonaws.com
 plink -v -ssh ec2-user@"" -i "C:\Users\zhodd_000\Documents\AWS\AWSClassKey.ppk"
+plink -v -ssh ec2-user@ec2-54-202-255-26.us-west-2.compute.amazonaws.com -i "C:\Users\zhodd_000\Documents\AWS\AWSClassKey.ppk"
+# putty to push server
