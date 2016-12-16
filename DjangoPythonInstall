@@ -31,6 +31,39 @@ import sys, os
 
 def get_git()
     os.system('yum -y install git')
-    os.system('git clone 
+    os.system('git clone )
+
+get_git()
+
+def ins_apache()
+      os.system('yum -y install httpd)
+      os.system('systemctl enable httpd.service)
+      os.system('systemctl start httpd.service)
+      
+ins_apache()
+
+def ins_django()
+      os.system('pyhton --version')
+      os.system('rpm -iUvh https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm')
+      os.system('yum -y install python-pip')
+      os.system('pip install virtualenv')
+      os.system('cd /opt')
+      os.system('mkdir django')
+      os.system('chown -R ec2-user django')
+      os.system('sleep 5')
+      os.system('cd django')
+      os.system('virtualenv django-env')
+      os.system('source /opt/django/django-env/bin/activate;)
+      os.system('which python')
+      os.system('chown -R ec2-user /opt/django')
+      os.system('pip install django')
+      os.system('django-admin --version')
+      os.system('django-admin startproject project1')
+      os.system('tree project1')
+
+ins_django()
+
+
+
   
   
